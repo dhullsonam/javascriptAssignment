@@ -1,0 +1,29 @@
+ git? ==> the content tracker
+
+
+git init ==>  Create an empty Git repository 
+git add ==>  Adds files in the to the staging area for Git(git add <fileName>)
+git add . / git add -a ==> to add all file in the staging area
+
+git status ==>  returns the current state of the repository
+git commit -m "myMessage"  ==> Record changes to the repository
+
+
+git checkout ==> Switch branches or Checking out a branch updates and record all new commits on that branch.
+
+git diff ==> Show changes between commits, commit and working tree 
+git log ==> shows commit logs
+
+git branch ==> are effectively a pointer to a snapshot of your changes
+git merge ==> Join two or more development histories together
+
+
+git pull ==>  update the local version of a repository from a remote
+git push ==>  upload local repository content to a remote repository.
+
+
+git add remote url ==> create a new connection record to a remote repository
+git remote -v ==>  manages the set of remotes that you are tracking with your local repository(fetch , push)
+
+git clone ==> to copy/ downloads an existing Git repository to your local computer
+git --help 
