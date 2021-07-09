@@ -16,8 +16,10 @@ function Clock (hour , minutes, second) {
     this.getSecond = function() {
         return this.second;
     }
-    this.setHour = function(hour) {
+    this.setHour = function(hour, minutes, second) {
         this.hour = hour;
+        this.minutes = minutes;
+        this.second = second
     }
 }
 

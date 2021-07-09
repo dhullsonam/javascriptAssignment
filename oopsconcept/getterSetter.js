@@ -1,9 +1,9 @@
 // getter example
 
 var emp = {
-    name : 'sonam',
-    salary : 909000,
-    city : 'Yamunanagar',
+    name: 'sonam',
+    salary: 909000,
+    city: 'Yamunanagar',
     get empCity() {
         return this.city
     },
@@ -17,14 +17,14 @@ console.log(emp.empName);
 // setter 
 
 var emp = {
-    name : 'navpreet',
-    salary : 14000000,
-    city : 'yamunanagar',
+    name: 'navpreet',
+    salary: 14000000,
+    city: 'yamunanagar',
     set empName(empName) {
         this.name = empName;
     },
     set empCity(empCity) {
-        this.city =empCity;
+        this.city = empCity;
     }
 }
 
@@ -37,7 +37,7 @@ console.log(emp.city);
 //playing with counter
 
 var obj = {
-    counter : 0,
+    counter: 0,
     get reset() {
         this.counter = 0;
     },
