@@ -52,27 +52,8 @@ function Building(adr, flats) {
 
 
 
-let buildingOne = new Building("1-d,Inderlok", 1)
 
 
 
-function City(buildings) {
-    this.building = buildings
-
-    this.buildingAddress = function () {
-        return this.building.address
-    }
-}
-
-
-let myCity = new City(buildingOne)
-
-console.log(myCity.buildingAddress());
-
-
-//class Classname {
-    //vars
-    //methods
-//}
 
 
