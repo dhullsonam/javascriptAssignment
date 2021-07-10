@@ -37,9 +37,18 @@ function Clock(hour, minutes, second) {
         }
     };
     this.addClock = function (clock) {
-        this.hour = this.hour + clock.hour;
-        this.minutes = this.minutes + clock.minutes;
         this.second = this.second + clock.second;
+        if(this.second > 60) {
+            this.second = this.second - 60;
+            this.minutes++;
+        }
+      
+        this.minutes = this.minutes + clock.minutes;
+        if(this.minutes > 60) {
+            this.minutes = this.minutes - 60;
+            this.hour++;
+        }
+        this.hour = this.hour + clock.hour;
     };
     this.now = function () {
         
@@ -65,19 +74,19 @@ function Clock(hour, minutes, second) {
     };
 }
 
-var clock1 = new Clock(1, 45, 0)
+var clock1 = new Clock(1, 59, 50)
 // clock1.setClock(40000);
 clock1.printTime();
 
-let clock2 = new Clock(2,3,12)
+let clock2 = new Clock(3,3,12)
 clock1.addClock(clock2)
 clock1.printTime();
 
 
-// clock1.setHour(5);
+// clock1.setHour(11);
 // console.log(clock1.getHours());
-// console.log(clock1.getSecond());
 // console.log(clock1.getMinute());
+// console.log(clock1.getSecond());
 
 
 // clock1.tick()
