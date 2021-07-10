@@ -52,6 +52,7 @@ function Clock(hour, minutes, second) {
     };
     this.now = function () {
 
+
     }
     this.tickDown = function () {
         if (this.second == 0) {
@@ -91,7 +92,8 @@ clock1.printTime();
 // clock1.tick()
 // clock1.printTime();
 
-var clock3 = new Clock(0, 0, 0)
-clock3.tickDown();
-clock3.printTime();
+var clock4 = new Clock(0, 0, 0)
+clock4.tickDown();
+clock4.printTime();
+
 
