@@ -38,39 +38,38 @@ function Clock(hour, minutes, second) {
     };
     this.addClock = function (clock) {
         this.second = this.second + clock.second;
-        if(this.second > 60) {
+        if (this.second > 60) {
             this.second = this.second - 60;
             this.minutes++;
         }
-      
+
         this.minutes = this.minutes + clock.minutes;
-        if(this.minutes > 60) {
+        if (this.minutes > 60) {
             this.minutes = this.minutes - 60;
             this.hour++;
         }
         this.hour = this.hour + clock.hour;
     };
     this.now = function () {
-        
 
     }
-    this.tickDown = function() {
+    this.tickDown = function () {
         if (this.second == 0) {
             this.second = 59;
-            if(this.minutes == 0) {
+            if (this.minutes == 0) {
                 this.minutes = 59;
-                if(this.hour == 0) {
+                if (this.hour == 0) {
                     this.hour = 23;
-                }else {
+                } else {
                     this.hour--;
                 }
-               
-            }else {
+
+            } else {
                 this.minutes--
             }
-            
-        }else
-         this.second--
+
+        } else
+            this.second--
     };
 }
 
@@ -78,7 +77,7 @@ var clock1 = new Clock(1, 59, 50)
 // clock1.setClock(40000);
 clock1.printTime();
 
-let clock2 = new Clock(3,3,12)
+let clock2 = new Clock(3, 3, 12)
 clock1.addClock(clock2)
 clock1.printTime();
 
@@ -92,7 +91,7 @@ clock1.printTime();
 // clock1.tick()
 // clock1.printTime();
 
-var clock3 = new Clock(0,0,0)
+var clock3 = new Clock(0, 0, 0)
 clock3.tickDown();
 clock3.printTime();
 
