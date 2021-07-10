@@ -16,18 +16,22 @@ function Clock (hour , minutes, second) {
     this.getSecond = function() {
         return this.second;
     }
-    this.setHour = function(hour, minutes, second) {
+    this.getMinute = function() {
+        return this.minutes
+    }
+    this.setHour = function(hour , minutes, second) {
         this.hour = hour;
         this.minutes = minutes;
-        this.second = second
+        this.second = second;
     }
+    
 }
 
 var clock1 = new Clock(13,4,09)
 clock1.setClock(40000);
 clock1.printTime();
 
-clock1.setHour(8)
-
+clock1.setHour(5,3,44);
 console.log(clock1.getHours());
 console.log(clock1.getSecond());
+console.log(clock1.getMinute());

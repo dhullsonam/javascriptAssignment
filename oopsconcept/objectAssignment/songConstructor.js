@@ -22,3 +22,57 @@ var three = new Song('aaja aaja', 'Aamir khan', 4, 'niti mohan')
 console.log(three.artist);
 
 three.play()
+
+
+
+
+function Building(adr, flats) {
+    this.address = adr
+    this.noOfFlats = flats
+    this.noOfAvalibleFlats = flats
+
+    Building.prototype.isThereAnyEmptyFlat = function () {
+        if (this.noOfAvalibleFlats > 0)
+            return true
+        else 
+            return false
+    }
+
+    this.giveMeFlat = function () {
+       if( this.isThereAnyEmptyFlat() ) {
+           this.noOfAvalibleFlats--
+       } else {
+           console.log("thers is no empty flats available");
+       }
+    }
+
+
+}
+
+
+
+
+let buildingOne = new Building("1-d,Inderlok", 1)
+
+
+
+function City(buildings) {
+    this.building = buildings
+
+    this.buildingAddress = function () {
+        return this.building.address
+    }
+}
+
+
+let myCity = new City(buildingOne)
+
+console.log(myCity.buildingAddress());
+
+
+//class Classname {
+    //vars
+    //methods
+//}
+
+
