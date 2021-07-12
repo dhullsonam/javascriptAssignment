@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sibling Selector</title>
+    <style>
+        h1 + p {
+            color: darkcyan;     
+        } 
+        h1 ~ aside {
+            width: 50%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <article>
+        <h1>Parent-child Selector</h1>
+        <p>select the paragraph in the article, not in the aside </p>
+        <aside>
+            <h2>An aside article</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and <strong>typesetting</strong> industry.
+                <em>
+                    <strong>Ipsum is simply dummy text of the printing and</strong>
+                </em>
+            </p>
+        </aside>
+
+        <p> If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing
+            hidden in the middle of text.
+            All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making
+            this the first true generator on
+            the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence
+            structures, to generate Lorem
+            Ipsum which looks reasonable. </p>
+
+    </article>
+</body>
+
+</html>

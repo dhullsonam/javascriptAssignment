@@ -1,0 +1,19 @@
+.first {
+    color: rgb(40, 40, 155);
+    font-style: italic;
+}
+#second {
+    font-size: 20px;
+    color: chocolate;
+}
+.heading1 {
+    font-size: 30px;
+    color: darkturquoise;
+
+}
+.heading2{
+    color: darkturquoise;
+}
+.red {
+    color: red;
+}
