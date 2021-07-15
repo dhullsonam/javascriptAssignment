@@ -17,6 +17,9 @@ let fruits = ['Banana','Mango','Apple'];
 let veggi = ['Potato','onion','capsicum'];
 console.log(fruits.concat(veggi)); 
 
+var num = [23,5,6,8,1] // inplace sort
+console.log(num.sort());
+
 
 
 
