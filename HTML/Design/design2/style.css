@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    padding:0px;
+    font-family:"Poppins",sans-serif;
+}
+body {
+    background-color: #dcdcdc;
+}
+main {
+    width: 90%;
+    margin:0px auto;
+    background-color: white;
+}
+header {
+   border-bottom:1px solid rgb(219, 218, 218);
+}
+header .logo  {
+    float: left;
+    color:cornflowerblue;
+    padding: 20px 40px   ;
+}
+
+header nav {
+    float:right;
+}
+.clear{
+    clear: both;
+}
+nav ul {
+    padding: 30px 40px;
+}
+nav ul li {
+    list-style: none;
+    display: inline;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.active{
+    color:cornflowerblue;
+}
+
+nav ul li a:hover{
+    color: cornflowerblue;
+    border-bottom: 1px solid cornflowerblue;
+}
+.beach , .dear , .snow{
+    padding: 20px 30px;
+}
+
+.beach img {
+    float: left;
+    width: 800px;
+}
+.beach div {
+    background-color:cornflowerblue;
+    color: white;
+    margin-top: 120px;
+    margin-left: 10px;
+    float: left;
+    width: 800px;
+    padding: 10px;
+}
+.beach div a,
+.dear div a,
+.snow div a{
+    display: inline-block;
+    padding: 10px;
+    background-color:cornsilk;
+    text-decoration: none;
+    color: black;
+    margin-top: 5px;
+}
+.dear img{
+    float: right;
+    width:900px;
+}
+.dear div{
+    background-color:pink;
+    color: white;
+    margin-top: 90px;
+    margin-left: 10px;
+    float: left;
+    width: 700px;
+    padding: 10px;
+}
+.snow img {
+    float: left;
+    width:800px;
+}
+.snow div{
+    background-color:cornflowerblue;
+    color: white;
+    margin-top: 90px;
+    margin-left: 10px;
+    float: left;
+    width: 800px;
+    padding: 10px;
+}
+
+footer{
+    background-color: black;
+    height: 200px;
+}
+.logo2{
+    color: white;
+    font-size: 50px;
+    float: left;
+    padding:20px 80px;
+}
+footer div{
+    float:right;
+    color: white;
+    padding:20px 30px;
+}
+footer div ul li {
+    list-style: none;
+}
+footer div ul li a{
+    text-decoration: none;
+    color: white;
+}
+footer div ul li a:hover{
+    color:cornflowerblue;
+}

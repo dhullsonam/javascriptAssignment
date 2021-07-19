@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    background-image: url(riccardo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+header section {
+    width: 90%;
+    margin: auto;
+}
+header section .logo{
+    padding: 30px 40px;
+    color: white;
+    font-weight: 900;
+    float: left;
+}
+.clear {
+    clear: both;
+}
+header section nav{
+    padding: 30px 40px;
+    color: white;
+    float: right;
+}
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+      padding: 15px;
+}
+.active {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+.banner_content {
+    width: 100%;
+    margin: 12% auto;
+    text-align: center;
+}
+
+.banner_content h1{
+    font-size: 80px;
+    color: white;
+}
+
+.banner_content p{
+    font-size: 20px;
+    color: white;
+}
+
+.banner_content a{
+    background-color: turquoise;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.banner_content a:hover{
+    background-color: white;
+    color: black;
+}

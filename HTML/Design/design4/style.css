@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clear {
+    clear: both;
+}
+header {
+    width: 100%;
+    background-image: url(./image/nature..jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+header section {
+    width: 90%;
+    margin: auto;
+}
+
+header section .logo{
+    padding: 30px 40px;
+    color: white;
+    font-weight: 900;
+    float: left;
+}
+header section nav {
+    float: right;
+    padding: 30px 40px;
+}
+
+header section nav li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+
+header section nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+.active {
+    border: 1px solid white;
+}
+
+header section nav ul li a:hover {
+    border: 1px solid white;
+}
+
+.banner_content {
+    width: 100%;
+    text-align: center;
+    margin-top: 12%;
+}
+
+.banner_content h1{
+    font-size: 80px;
+    color: white;
+}
+
+.banner_content p{
+    font-size: 20px;
+    color: white;
+}
+
+.banner_content a{
+    border: 1px solid white;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.banner_content a:hover{
+    background-color: white;
+    color: black;
+}
+
+.about{
+    padding: 40px;
+    width: 100%;
+    margin: auto;
+    background-color:gainsboro;
+    text-align: center;
+}
+.about .all_section {
+    width: 100%;
+    margin: 20px auto;
+}
+
+.about .about_sec {
+    width: 30%;
+    border: 1px solid white;
+    float: left;
+    margin-left: 33px;
+    background-color: white;
+}
+.about .about_sec img{
+    width: 90px;
+}
+
+.about_sec .cloud {
+    border-radius: 50%;
+    background-color: skyblue;
+    width:130px;
+    height: 130px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.about_content {
+    padding: 20px;
+}
+.about h1{
+    font-size: 50px;
+}
+.about h1+p {
+    font-size: 20px;
+}

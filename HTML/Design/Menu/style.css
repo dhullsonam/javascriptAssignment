@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    margin: 10px 40px;
+}
+nav ul {
+
+}
+nav ul li {
+    list-style: none;
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+nav ul li a:hover {
+    color: orange;
+    border-bottom: 2px solid orange;  
+}
+
+.menu1 {
+    margin-top: 20px;
+}
+.menu1 ul {
+    background-color: rgb(248, 227, 230);
+}
+.menu1 ul li {
+    list-style:none;
+    display: inline-block;
+    padding: 10px;
+}
+.menu1 ul li a{
+    text-decoration: none;
+    padding:10px;
+    color: black;
+}
+.menu1 ul li a:hover {
+    background-color: rgb(47, 0, 255);
+    border-radius: 0px 10px 10px 0px;
+}
+.menu2 {
+    margin-top: 30px;
+}
+.menu2 ul {
+    background-color: white;
+}
+.menu2 ul li {
+    display: inline-block;
+    padding: 10px;
+}
+.menu2 ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.menu2 ul li a:hover{
+     border: 2px solid black;
+}
