@@ -4,6 +4,8 @@
 }
 body{
     background-color: rgb(240, 239, 239);
+    background-image: url(../image/nature..jpg);
+    height: 100vh;
 }
 form{
     margin: 150px 0 0 35%;
