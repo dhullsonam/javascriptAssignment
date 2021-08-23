@@ -1,0 +1,1 @@
+setInterval(()=>console.log('welcome to India'),1000);

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    border: 6px solid black;
+    display:flex;
+    justify-content: center;
+}
+.flex_item {
+    color:white;
+    font-size: 24px;
+    padding: 16px;
+    text-align: center;
+}
+.item1 {
+    background-color: teal;
+}
+.item2 {
+    background-color: tomato;
+}
+.item3 {
+    background-color: turquoise;
+}
+.item4 {
+    background-color: rgb(224, 141, 64);
+}
+.item5 {
+    background-color: black;
+}
+.item6 {
+    background-color: red;
+}
+.item7 {
+    background-color: green;
+}
+.item8 {
+    background-color: blue;
+    
+}
